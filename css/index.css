@@ -1,8 +1,69 @@
-* {
-    background-image: url(pictures/8.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+body {
+    background-image: url(/pictures/background.jpg);
+    background-size: 100%;
+    background-attachment: fixed
 }
-p {
-    color: red;
+#logo img{
+	width: 20px;
+	height: 20px;
+}
+#navbar {
+	    height: 30px;
+        background-color: black;
+        padding-left: 25px;
+        opacity: 0.5;
+        text-align: right;
+}
+#navbar li { 
+	display: inline; 
+}
+#navbar li a{ 
+	padding: 10px;
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+}
+#navbar #logo3 {
+	width: 150px;
+	height: 25px;
+}
+footer {
+    position: fixed;
+    right: 0; bottom: 0;
+    padding: 20px;
+}
+#right {
+    position:absolute;
+    right:300px;
+    width:300px;
+    opacity: 0.3;
+ }
+#left {
+	position:absolute;
+    left:0px;
+    width:300px;
+    opacity: 0.3;
+}
+#midle {
+	position:absolute;
+    line-height:0px;
+    margin-left:700px;
+    width:70%;
+}
+#midle img {
+    vertical-align: middle;
+    width:300px;
+}
+#top {
+	position:absolute;
+    top:0px;
+    width:300px;
+    opacity: 0.3;
+}
+#down {
+    position:absolute;
+    top:0px;
+    width:300px;
+    opacity: 0.3;
 }
