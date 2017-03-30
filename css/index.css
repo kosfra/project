@@ -2,17 +2,19 @@
 - червону картинку зробити справа від меню
 - я хтів би щоб після загрузки сайту кожен трикутник випливав би замеж сайта і потім в центрі великими буквами писало те що в <div ="midele">
 - Але саме головне то в позицыонуванні тих трикутників , як їх  спозиціонувати  по центру до стінок вікна ?*/
-
 body {
     background-image: url(/pictures/background.jpg);
     background-size: 100%;
-    background-attachment: fixed
+    background-attachment: fixed;
+    max-width: 1680px;
+    margin: 0 auto;
 }
 #logo img{
-	width: 20px;
-	height: 20px;
+	width: 100px;
+	opacity: 0.3;
 }
 #navbar {
+        margin: 0;
 	    height: 30px;
         background-color: black;
         padding-left: 25px;
@@ -30,12 +32,49 @@ body {
 	font-family: 'Roboto Slab', serif;
 }
 #navbar #logo3 {
-	width: 150px;
+	width: 25px;
 	height: 25px;
+	float: left;
 }
 footer {
     position: fixed;
-    right: 0; bottom: 0;
-    padding: 20px;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
 }
-
+#top {
+    text-align: center;
+    opacity: 0.2;
+    top: 0;
+}
+.maincenter {
+    position: relative;
+}
+.centre {
+    display: inline-block;
+}
+#left {
+    width:15%;
+    float: left;
+    position: absolute;
+    left: 0px;
+    opacity: 0.2;
+}
+#centr1 {
+    width:70%;
+    text-align: center;
+    margin-left: 250px;
+    opacity: 0.5;
+}
+#right {
+    float: right;
+    opacity: 0.2;
+}
+#down {
+    text-align: center;
+    opacity: 0.2;
+    margin-left: 600px;
+    position: fixed;
+    margin-top: 255px;
+}
