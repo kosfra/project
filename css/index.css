@@ -3,7 +3,7 @@
 - я хтів би щоб після загрузки сайту кожен трикутник випливав би замеж сайта і потім в центрі великими буквами писало те що в <div ="midele">
 - Але саме головне то в позицыонуванні тих трикутників , як їх  спозиціонувати  по центру до стінок вікна ?*/
 body {
-    background-image: url(/pictures/background.jpg);
+    background-image: url(/pictures/backgr.jpg);
     background-size: 100%;
     background-attachment: fixed;
     max-width: 1680px;
