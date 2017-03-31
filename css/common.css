@@ -1,0 +1,46 @@
+header {
+    background-image: url("../pictures/tooper.png");
+    opacity: 0.8
+}
+#logo img{
+	width: 20px;
+	opacity: 0.5;
+}
+#navbar {
+        margin: 0;
+
+        background-color: black;
+        padding-left: 25px;
+        text-align: right;
+}
+#navbar li { 
+	display: inline; 
+}
+#navbar li a{ 
+	padding: 10px;
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+}
+#navbar #logo3 {
+	width: 100px;
+	float: left;
+	opacity: 0.5;
+}
+body {
+    background-image: url("../pictures/backgroung-galka.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    max-width: 1680px;
+    margin: 0 auto;
+}
+footer {
+    background-image: url("../pictures/foot.png");
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    opacity: 0.6;
+}
