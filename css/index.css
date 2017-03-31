@@ -1,13 +1,9 @@
-/* Добрий день. Намучився я з цими трикутниками. Гляяньте і скажіть як мені
-- червону картинку зробити справа від меню
-- я хтів би щоб після загрузки сайту кожен трикутник випливав би замеж сайта і потім в центрі великими буквами писало те що в <div ="midele">
-- Але саме головне то в позицыонуванні тих трикутників , як їх  спозиціонувати  по центру до стінок вікна ?*/
 header {
-    background-image: url("/pictures/tooper.png");
+    background-image: url("../pictures/tooper.png");
     opacity: 0.8
 }
 body {
-    background-image: url("/pictures/backgroung-galka.jpg");
+    background-image: url("../pictures/backgroung-galka.jpg");
     background-size: 100%;
     background-attachment: fixed;
     max-width: 1680px;
@@ -40,7 +36,7 @@ body {
 	float: left;
 }
 footer {
-    background-image: url("/pictures/foot.png");
+    background-image: url("../pictures/foot.png");
     position: fixed;
     bottom: 0;
     left: 0;
