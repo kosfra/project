@@ -7,7 +7,7 @@
  #header {
   width:100%;
   height: 195px;
-  background: url("../pictures/tooper.png") no-repeat;
+  background: url("../pictures/header.png") no-repeat;
   position: fixed;
   z-index: 2;
   opacity: 0.6;
@@ -39,13 +39,13 @@ body {
 	text-decoration: none;
 	font-family: 'Roboto Slab', serif;
 }
-#navbar #logo3 {
+#navbar #logo_frakos {
 	width: 100px;
 	float: left;
 	opacity: 0.5;
 }
 footer {
-    background-image: url("../pictures/foot.png");
+    background-image: url("../pictures/footer.png");
     position: fixed;
     bottom: 0;
     left: 0;
