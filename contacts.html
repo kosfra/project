@@ -8,11 +8,10 @@
 </head>
 <body>
     <header>
-        <div id="logo">
-          <span>
-             <img src="pictures/camera.png" alt="logo">
-          </span>
-        </div>
+     <div id="headerMain">
+      <div id="header">
+      </div>
+     </div>
     </header>
      <nav>
         <ul id="navbar">
@@ -24,7 +23,29 @@
         </ul>
      </nav>
     <main>
-       <!-- Скидаю домашне , тут мають бути контакти =))) -->
+        <div>
+            <br><br><br>
+          <form metod="GET" action="https://formspree.io/kosfrancuz@gmail.com">
+           <label>Ім'я:
+            <input type="text" name="client-name" required>
+           </label>
+             <br>
+           <label>Мобільний:
+            <input type="text" name="client-mobile" required>
+           </label>
+             <br>
+           <label>Ваш E-mail:
+            <input type="email" name="client-email" required>
+           </label>
+             <br>
+           <label>Ваші пропозиції і побажання:<br>
+            <textarea name="client-proposals_and_suggestions" cols="48" rows="8"></textarea>
+           </label>
+             <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Очистити">
+           </form>
+        </div>
     </main>
     <footer>
         

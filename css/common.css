@@ -1,17 +1,33 @@
-header {
-    background-image: url("../pictures/tooper.png");
-    opacity: 0.8
+#headerMain {
+  width:100%;
+  height: 27px;
+  margin:0px auto;
+  z-index:0;
 }
-#logo img{
-	width: 20px;
-	opacity: 0.5;
+ #header {
+  width:100%;
+  height: 195px;
+  background: url("../pictures/tooper.png") no-repeat;
+  position: fixed;
+  z-index: 2;
+  opacity: 0.6;
+}
+body {
+    background-image: url("../pictures/backgroung-galka.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    max-width: 1680px;
+    margin: 0 auto;
+    margin-bottom: 70px;
 }
 #navbar {
+        position: fixed;
+        width: 99%;
         margin: 0;
-
         background-color: black;
         padding-left: 25px;
         text-align: right;
+        z-index: 3;
 }
 #navbar li { 
 	display: inline; 
@@ -27,13 +43,6 @@ header {
 	width: 100px;
 	float: left;
 	opacity: 0.5;
-}
-body {
-    background-image: url("../pictures/backgroung-galka.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
-    max-width: 1680px;
-    margin: 0 auto;
 }
 footer {
     background-image: url("../pictures/foot.png");
