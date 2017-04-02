@@ -1,14 +1,10 @@
 * {
     margin: 0;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
 }
 body {
     background-image: url("../pictures/backgroung-galka.jpg");
     background-size: cover;
     background-attachment: fixed;
-    min-width: 500px;
     max-width: 1680px;
     margin: 0 auto;
     margin-bottom: 70px;
@@ -22,10 +18,11 @@ body {
     z-index: 0;
 }
 #header {
-    height: 27px;
+    height: 195px;
     width: 100%;
     background: url("../pictures/header.png") no-repeat;
     position: fixed;
+    z-index: 2;
     opacity: 0.6;
 }
 #header img {
@@ -34,36 +31,52 @@ body {
 	float: left;
 	
 }
-#menu {
-        position: fixed;
-    width: 1680px;
+nav ul {
+     background-color: black;
+    position: fixed;
+    width: 1641px;
+    
+}
+nav {
+    width:100%;
     background-color: black;
 	overflow: hidden;
+	z-index: 3;
 }
-#menu li {
-	float: right;
+
+nav li {
+	float:right;
 	list-style: none;
 }
-#menu li a {
+nav li a {
     padding: 10px;
     color: white;
     font-size: 25px;
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
 }
-ul #logo_frakos {
-    max-width: 1650px;
-    width: 100px;
-    float: left;
-    opacity: 0.5;
-    padding-right: 1095px;
+
+nav li a:hover {
+	color: #a45f93;
 }
 footer {
-    max-width: 1680px;
     background-image: url("../pictures/footer.png");
     position: fixed;
     bottom: 0;
+    left: 0;
     height: 70px;
     width: 100%;
     opacity: 0.6;
+}
+
+#francuz_photograhpy {
+    margin: auto;
+    text-align: center;
+}
+
+#francuz_photograhpy img {
+    margin-top: 300px;
+    width: 1000px;
+    height: 201px;
+    opacity: 0.7;
 }
