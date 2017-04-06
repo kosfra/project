@@ -1,0 +1,20 @@
+#main-text {
+    display: flex;
+    margin-top: 33px;
+}
+p {
+    width: 100%;
+    font-size: x-large;
+    color: white;
+    font-family:'Roboto Slab', serif;
+}
+p img {
+    float: right;
+    width: 40px;
+}
+#my-photo {
+
+}
+#my-photo img {
+    width: 100%;
+}

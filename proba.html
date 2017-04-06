@@ -7,39 +7,43 @@
         <title>Francuz Photography</title>
     </head>
     <body>
-        <header>
-            <div id="headerMain">
-                <div id="header"></div>
-            </div>
-         <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Main</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="about.html">About me</a>
-                </li>
-                <li>
-                    <a href="contacts.html">Contacts</a>
-                </li>
-            </ul>
-         </nav>
-        </header>
-        <main>
-            <div id="francuz_photograhpy">
-                <img src="pictures/francuz-photograhpy.png" alt="francuz-photograhpy">
-            </div>
-        </main>
-        <footer>
-            <div>
-                <span>
-                    <img src="pictures/instagram.png" alt="logo-instagram">
-                    <img src="pictures/facebook.png" alt="logo-facebook">
-                </span>
-            </div>
-        </footer>
-    </body>
+<form name="c_fоrm" action="">
+<input type="hidden" name="selected_date" value="">
+
+<select name="sel_month"
+    onchange='update(c_fоrm.sel_year.value, c_fоrm.sel_month.value)'>
+ <option value="1">Январь</option>
+ <option value="2">Февраль</option>
+ <option value="3">Март</option>
+ <option value="4">Апрель</option>
+ <option value="5">Май</option>
+ <option value="6">Июнь</option>
+ <option value="7">Июль</option>
+ <option value="8">Август</option>
+ <option value="9">Сентябрь</option>
+ <option value="10">Октябрь</option>
+ <option value="11">Ноябрь</option>
+ <option value="12">Декабрь</option>
+</select>
+
+<select name="sel_year"
+    onchange='update(c_fоrm.sel_year.value, c_fоrm.sel_month.value)'>
+ <option value="2013">2013</option>
+ <option value="2014">2014</option>
+ <option value="2015">2015</option>
+ <option value="2016">2016</option>
+ <option value="2017">2017</option>
+ </select>
+</form>
+
+<script type="text/javascript">
+var cur_date=new Date();
+draw_cal(cur_date.getFullYear(), cur_date.getMonth()+1, 30, 16, "bold",
+    "gray", "red", "white", "white", "red", "silver", "#F6F6F6");
+c_fоrm.sel_month.options[cur_date.getMonth()].selected=true;
+for (i=0; i < c_fоrm.sel_year.length; i++)
+ if (c_fоrm.sel_year.options[i].value==cur_date.getFullYear())
+    c_fоrm.sel_year.options[i].selected=true;
+</script>
+</body>
 </html>
