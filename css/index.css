@@ -19,11 +19,16 @@
 
 @-webkit-keyframes rotate { 
 
-    to {-webkit-transform: rotate(360deg);}} 
+    to {-webkit-transform: rotate(360deg);}
+    
+} 
 #button img:hover {
     opacity: 0.8;
 	animation: rotate 2s; 
 }
 #button img {
     opacity: 0.8;
+}
+.second_menu img {
+    width: 60px;
 }
