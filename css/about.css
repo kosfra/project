@@ -1,10 +1,31 @@
-#main-text {
-    display: flex;
+#info {
     margin-top: 33px;
 }
-
-p {
+#head {
+    display: flex;
     width: 100%;
+    
+}
+#me {
+    width: 20%;
+}
+#me img {
+    width: 100%;
+}
+#img_info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+}
+.information {
+    width: 30%;
+}
+#text {
+    width: 80%;
+}
+p {
     font-size: x-large;
     color: white;
     font-family: 'Roboto Slab', serif;
@@ -13,7 +34,4 @@ p {
 p img {
     float: right;
     width: 40px;
-}
-#my-photo img {
-    width: 100%;
 }
