@@ -12,16 +12,6 @@
 #me img {
     width: 100%;
 }
-#img_info {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    
-}
-.information {
-    width: 30%;
-}
 #text {
     width: 80%;
 }
@@ -32,6 +22,25 @@ p {
 }
 
 p img {
-    float: right;
     width: 40px;
+}
+#img_info {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    text-align: center;
+}
+.information {
+    width: 30%;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+#logo1 {
+    width: 50%;
+}
+#logo2 {
+    width: 50%;
+}
+#logo3 {
+    width: 34%;
 }

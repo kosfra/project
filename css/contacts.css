@@ -1,13 +1,10 @@
 form {
-    margin-top: 5%;
-    font-size: x-large;
     color: white;
     font-family: 'Roboto Slab', serif;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-    width: 361px;
+    width: 333px;
     padding: 1em;
     border: 1px solid #CCC;
     border-radius: 1em;

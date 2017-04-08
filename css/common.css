@@ -52,11 +52,16 @@ body {
 }
 
 #menu li a {
+    opacity: 0.5;
     padding: 10px;
     color: white;
     font-size: 25px;
     text-decoration: none;
     font-family: 'Roboto Slab', serif;
+    letter-spacing: 2px;
+}
+#menu li a:hover {
+    opacity: 1;
 }
 
 footer {

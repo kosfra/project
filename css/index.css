@@ -1,15 +1,29 @@
 #francuz_photograhpy {
-    margin: auto;
+    width: 100%;
+    color: #ebeaed;
+    font-family: 'Dancing Script', cursive;
+}
+#francuz_photograhpy h1 {
+    font-size: 157px;
+}
+.main {
+    text-align: center;
+    margin-top: 16%;
+    display: flex;
+    align-items: baseline;
+}
+#button {
+    margin-top: 3%;
     text-align: center;
 }
 
-#francuz_photograhpy img {
-    width: 100%;
-    height: 70%;
-    opacity: 0.7;
-}
+@-webkit-keyframes rotate { 
 
-.main {
-    margin-top: 22%;
-    display: flex;
+    to {-webkit-transform: rotate(360deg);}} 
+#button img:hover {
+    opacity: 0.8;
+	animation: rotate 2s; 
+}
+#button img {
+    opacity: 0.8;
 }
