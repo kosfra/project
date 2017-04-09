@@ -37,3 +37,11 @@ textarea {
 button {
     margin-left: .5em;
 }
+#contacts {
+    display: flex;
+    margin-top: 33px;
+}
+.second_menu h1 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
