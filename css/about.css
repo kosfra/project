@@ -25,12 +25,13 @@ p img {
     width: 40px;
 }
 #img_info {
+    padding-top: 60px;
     display: flex;
-    align-items: baseline;
     justify-content: space-between;
     text-align: center;
 }
 .information {
+    border: 3px solid white;
     width: 30%;
     color: white;
     font-family: 'Roboto Slab', serif;
