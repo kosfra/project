@@ -30,6 +30,8 @@ body {
 	animation: rotate 2s; 
 }
 #button img {
+    position: inherit;
+    z-index: 8000;
     opacity: 0.8;
 }
 .second_menu img {

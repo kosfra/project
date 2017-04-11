@@ -9,12 +9,12 @@ form {
     border: 1px solid #CCC;
     border-radius: 1em;
 }
-
 label {
     display: inline-block;
 }
 
 input, textarea {
+    color: black;
     font: 1em sans-serif;
     width: 300px;
     box-sizing: border-box;
