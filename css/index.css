@@ -1,3 +1,6 @@
+body {
+        margin: 0 auto;
+}
 #francuz_photograhpy {
     width: 100%;
     color: #ebeaed;
@@ -8,7 +11,7 @@
 }
 .main {
     text-align: center;
-    margin-top: 16%;
+    margin-top: 11%;
     display: flex;
     align-items: baseline;
 }

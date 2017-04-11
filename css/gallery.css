@@ -1,6 +1,13 @@
+.carousel-inner img {
+    margin: 0 auto;
+    max-height: 800px;
+}
 #masonry {
     margin-top: 32px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+#myCarousel {
+    margin-top: 35px;
 }
