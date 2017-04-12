@@ -1,49 +1,59 @@
 body {
-        margin: 0 auto;
+    margin: 0 auto;
 }
+
 #francuz_photograhpy {
     width: 100%;
     color: #ebeaed;
     font-family: 'Dancing Script', cursive;
 }
+
 #francuz_photograhpy h1 {
     font-size: 157px;
 }
+
 .main {
     text-align: center;
     margin-top: 11%;
     display: flex;
     align-items: baseline;
 }
+
 #button {
     margin-top: 3%;
     text-align: center;
 }
 
-@-webkit-keyframes rotate { 
+@-webkit-keyframes rotate {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
 
-    to {-webkit-transform: rotate(360deg);}
-    
-} 
 #button img:hover {
     opacity: 0.8;
-	animation: rotate 2s; 
+    animation: rotate 2s;
 }
+
 #button img {
     position: inherit;
     z-index: 8000;
     opacity: 0.8;
 }
+
 .second_menu img {
     width: 60px;
 }
+
 #boat {
     width: 100%;
 }
+
 #boat img {
     width: 100%;
-    border-bottom:12px solid black;
+    border-bottom: 12px solid black;
 }
+
 #bottom_text {
     margin-top: 80px;
     text-align: center;
@@ -51,6 +61,7 @@ body {
     color: #ebeaed;
     font-family: 'Dancing Script', cursive;
 }
+
 #bottom_text h1 {
     font-size: 157px;
 }

@@ -1,24 +1,27 @@
-
 #info {
     margin-top: 35px;
 }
+
 #head {
     text-align: justify;
     flex-direction: column;
     display: flex;
     width: 100%;
     align-items: center;
-    
 }
+
 #me {
     width: 20%;
 }
+
 #me img {
     width: 100%;
 }
+
 #text {
     width: 80%;
 }
+
 p {
     font-size: x-large;
     color: white;
@@ -28,6 +31,7 @@ p {
 p img {
     width: 40px;
 }
+
 #img_info {
     padding-top: 60px;
     display: flex;
@@ -36,25 +40,30 @@ p img {
     flex-direction: column;
     align-items: center;
 }
+
 .information {
     border: 3px solid white;
     width: 30%;
     color: white;
     font-family: 'Roboto Slab', serif;
 }
+
 #logo1 {
     width: 50%;
 }
+
 #logo2 {
     width: 50%;
 }
+
 #logo3 {
     width: 34%;
 }
+
 @media screen and (max-width: 850px) {
     #img_info {
-    display: flex;
-align-items: center;
-    flex-direction: column;
-}
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }

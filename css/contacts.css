@@ -1,4 +1,5 @@
 form {
+    margin-top: 50px;
     background: rgba(12, 12, 12, 0.5);
     color: white;
     font-family: 'Roboto Slab', serif;
@@ -10,10 +11,19 @@ form {
     border: 1px solid #CCC;
     border-radius: 1em;
 }
+#letter {
+    opacity: 0.8;
+    margin-top: 50px;
+}
+#letter img:hover {
+    opacity: 1;
+}
 label {
     display: inline-block;
 }
-
+.second_menu {
+    margin-top: 50px;
+}
 input, textarea {
     font: 1em sans-serif;
     width: 300px;
@@ -36,37 +46,49 @@ textarea {
 button {
     margin-left: .5em;
 }
+
 #contacts {
     display: flex;
     margin-top: 35px;
     align-items: center;
     flex-direction: column;
 }
- #contacts h1 {
-     text-align: center;
+
+#contacts h1 {
+    text-align: center;
     color: white;
     font-family: 'Roboto Slab', serif;
 }
+
 input, textarea {
-    border: 5px solid white; 
-    -webkit-box-shadow: 
-      inset 0 0 8px  rgba(0,0,0,0.1),
-            0 0 16px rgba(0,0,0,0.1); 
-    -moz-box-shadow: 
-      inset 0 0 8px  rgba(0,0,0,0.1),
-            0 0 16px rgba(0,0,0,0.1); 
-    box-shadow: 
-      inset 0 0 8px  rgba(0,0,0,0.1),
-            0 0 16px rgba(0,0,0,0.1); 
+    border: 5px solid white;
+    -webkit-box-shadow: inset 0 0 8px rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0 0 8px rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.1);
+    box-shadow: inset 0 0 8px rgba(0,0,0,0.1), 0 0 16px rgba(0,0,0,0.1);
     padding: 15px;
     background: rgba(255,255,255,0.5);
     margin: 0 0 10px 0;
 }
-::-webkit-input-placeholder {color:white;}
-::-moz-placeholder          {color:white;}/* Firefox 19+ */
-:-moz-placeholder           {color:white;}/* Firefox 18- */
-:-ms-input-placeholder      {color:white;}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+::-moz-placeholder {
+    color: white;
+}
+
+/* Firefox 19+ */
+:-moz-placeholder {
+    color: white;
+}
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+    color: white;
+}
+
 input, textarea {
-     color: white;
+    color: white;
     border: 5px solid #4a4444;
 }
