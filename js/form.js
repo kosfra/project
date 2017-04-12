@@ -1,6 +1,3 @@
-$('btn btn-default').click(function() {
-    location.href = "contacts.html";
-});
 $(function() {
     $(':submit').click(sendForm);
 });
