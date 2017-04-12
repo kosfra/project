@@ -1,3 +1,4 @@
+
 .carousel-inner img {
     margin: 0 auto;
     max-height: 800px;
@@ -147,4 +148,24 @@
         -moz-transform: scale(0.7);
         opacity: 0.1;
     }
+}
+#boat {
+    width: 100%;
+}
+
+#boat img {
+    width: 100%;
+    border-bottom: 12px solid black;
+}
+
+#bottom_text {
+    margin-top: 80px;
+    text-align: center;
+    width: 100%;
+    color: #ebeaed;
+    font-family: 'Dancing Script', cursive;
+}
+
+#bottom_text h1 {
+    font-size: 157px;
 }
