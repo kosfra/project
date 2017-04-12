@@ -37,39 +37,40 @@
         </header>
         <main>
             <div id="contacts">
-                <h1>Для зв'язку ви можете заповнити форму запиту, або написати мені у соц. мережах.<br>
-                    Посилання ви знайдете нижче </h1>
+                <h1>
+For communication you can fill out a request form<br> or write me in the social. networks.<br>
+You will find links below </h1>
                 <div>
-                <form action="https://formspree.io/kosfrancuz@email.com" method="POST">
+                <form action="https://formspree.io/kosfrancuz@gmail.com" method="POST">
                     <div>
                         <label>
                             Name:
-            <input type="text" name="client-name" required>
+            <input type="text" id="client_name" name="client_name" required>
                         </label>
                     </div>
                     <div>
                         <br>
                         <label>
                             mob. Number:
-            <input type="text" name="client-mobile" required>
+            <input type="tel" id="client_phone" name="client_phone" required>
                         </label>
                     </div>
                     <div>
                         <br>
                         <label>
                             E-mail:
-            <input type="email" name="client-email" required>
+            <input type="email" id="client_email" name="client_email"  placeholder="Valid Email Address" required>
                         </label>
                     </div>
                     <div>
                         <br>
                         <label>
                             Your suggestions and wishes:<br>
-                            <textarea name="client-proposals_and_suggestions" cols="48" rows="8"></textarea>
+                            <textarea name="client_proposals" id="client_proposals" placeholder="Your Message to Us" cols="48" rows="8"></textarea>
                         </label>
                     </div>
                     <br>
-                    <input type="submit" value="Send">
+                    <input class="btn btn-default" type="submit" value="Send">
                 </form>
                 </div>
                 <div class="second_menu">
@@ -88,7 +89,8 @@
                 </div>
             </div>
         </main>
-        <footer></footer>
+        <footer>
+        </footer>
          <script src="https://code.jquery.com/jquery-3.2.1.min.js"
              integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
              crossorigin="anonymous"></script>
