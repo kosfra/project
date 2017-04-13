@@ -19,7 +19,7 @@ function sendForm(e) {
                 dataType: "json"
             })
             .done(function() {
-                $('form').html("Thx");
+                $('form').html("Thx you");
             });
     }
 }

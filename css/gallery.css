@@ -1,3 +1,22 @@
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+ .carousel-inner .item img {
+     height: 80em;
+     margin: 0 auto;
+     max-height: none;
+ }
+div #loadFacebookG {
+    margin-top: 620px;
+ }
+}
+@media (max-device-height: 736px) and (max-device-width: 420px){
+ .carousel-inner .item img {
+     height: 100em;
+     max-height: none;
+}
+div #loadFacebookG {
+    margin-top: 550px;
+ }
+}
 
 .carousel-inner img {
     margin: 0 auto;
@@ -169,3 +188,4 @@
 #bottom_text h1 {
     font-size: 157px;
 }
+

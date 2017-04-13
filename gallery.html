@@ -12,6 +12,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/gallery.css">
+        <link rel="stylesheet" media="(max-width: 520px)" href="css/layout-md-gallery.css">
+        <link rel="stylesheet" media="(max-width: 400px)" href="css/layout-sm-gallery.css">
     </head>
     <body>
         <header>
@@ -38,7 +40,7 @@
             </div>
         </header>
         <main>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div id="carusel" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="30000">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
