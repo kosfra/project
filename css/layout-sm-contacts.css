@@ -1,0 +1,15 @@
+#menu li {
+    text-align: center;
+    float: none;
+}
+#contacts {
+    margin-top: 150px;
+}
+form {
+    width: 300px;
+}
+input, textarea {
+    font: 1em sans-serif;
+    width: 270px;
+    box-sizing: border-box;
+}

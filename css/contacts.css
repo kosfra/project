@@ -1,3 +1,65 @@
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+label {
+        text-align: center;
+    }
+#information {
+    width: 800px;
+}
+#client_name {
+    font: 1em sans-serif;
+    width: 770px;
+    box-sizing: border-box;
+}
+#client_phone {
+    font: 1em sans-serif;
+    width: 770px;
+    box-sizing: border-box;
+}
+#client_email {
+    font: 1em sans-serif;
+    width: 770px;
+    box-sizing: border-box;
+}
+#client_proposals {
+    font: 1em sans-serif;
+    width: 770px;
+    box-sizing: border-box;
+}
+.btn {
+    width: 100%;
+}
+}
+@media (max-device-height: 736px) and (max-device-width: 420px){
+label {
+        text-align: center;
+    }
+#information {
+    width: 800px;
+}
+#client_name {
+    font: 1em sans-serif;
+    width: 770px;
+    box-sizing: border-box;
+}
+#client_phone {
+    font: 1em sans-serif;
+    width: 770px;
+    box-sizing: border-box;
+}
+#client_email {
+    font: 1em sans-serif;
+    width: 770px;
+    box-sizing: border-box;
+}
+#client_proposals {
+    font: 1em sans-serif;
+    width: 770px;
+    box-sizing: border-box;
+}
+.btn {
+    width: 100%;
+}
+}
 form {
     margin-top: 50px;
     background: rgba(12, 12, 12, 0.5);
@@ -13,6 +75,9 @@ form {
 }
 #letter {
     margin-top: 50px;
+}
+#letter img {
+    width: 98%;
 }
 label {
     display: inline-block;
